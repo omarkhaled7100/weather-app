@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background: black;
+    background-image: url('background-image.jfif');
+}
+
+.card{
+    align-items: center;
+    color: white;
+    background: darkslategray;
+    max-width: 500px;
+    width: 100%;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.INPUT{
+    border-radius: 1rem;
+    height: 2rem;
+    width: 15rem;
+    text-align: center;
+    background: cornsilk;
+}
+
+.BTN{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.description{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.5rem;
+}
